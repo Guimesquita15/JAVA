@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo Java e Programação Orientada a Objetos</title>
+    <link rel="stylesheet" href="styles2.css"> <!-- Link para o arquivo CSS atualizado -->
+</head>
+<body>
+    <header>
+        <h1>Aprendendo Java</h1>
+        <nav>
+
+               
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2 class="titulo-principal">Aprendendo Java</h2>
+            <div class="conteudo-topicos">
+                <section id="pacotes">
+                    <h3>Pacotes, Encapsulamento e JavaBeans</h3>
+                    <p>Pacotes em Java agrupam classes relacionadas, facilitando a organização do código e evitando conflitos de nomes. O encapsulamento protege os dados de acesso não autorizado, permitindo que apenas métodos específicos interajam com os dados internos de uma classe. JavaBeans são classes que seguem convenções específicas, como ter um construtor padrão e métodos getters e setters.</p>
+                </section>
+
+                <section id="nucleo">
+                    <h3>Núcleo de Funcionalidades</h3>
+                    <p>O núcleo de funcionalidades do Java refere-se às bibliotecas e APIs fundamentais para o desenvolvimento de aplicações. Isso inclui classes para manipulação de strings, coleções e entrada e saída. Compreender essas bibliotecas é crucial para construir aplicações robustas e eficientes.</p>
+                </section>
+
+                <section id="documentacao">
+                    <h3>Documentação da API</h3>
+                    <p>A documentação da API do Java fornece informações detalhadas sobre classes, métodos e pacotes disponíveis. É organizada para facilitar a busca por informações específicas e é frequentemente atualizada para refletir mudanças nas versões do Java.</p>
+                </section>
+
+                <section id="colecoes">
+                    <h3>Coleções e Strings</h3>
+                    <p>As coleções em Java são estruturas de dados que permitem armazenar e manipular grupos de objetos. A API de Coleções inclui interfaces como List, Set e Map, cada uma com características específicas. A classe String facilita a manipulação de texto com métodos para comparação e concatenação.</p>
+                </section>
+
+                <section id="aplicacoes">
+                    <h3>Aplicações Gráficas em Java</h3>
+                    <p>Java oferece bibliotecas como Swing e JavaFX para o desenvolvimento de interfaces gráficas. Essas bibliotecas permitem criar aplicações interativas com componentes como botões e menus, proporcionando experiências de usuário dinâmicas.</p>
+                </section>
+
+                <section id="entrada">
+                    <h3>Entrada e Saída (java.io)</h3>
+                    <p>O pacote java.io fornece classes para realizar operações de entrada e saída, permitindo que os desenvolvedores leiam e escrevam dados de diferentes fontes, como arquivos e redes. Compreender essas classes é essencial para a persistência de dados em Java.</p>
+                </section>
+
+                <section id="controle">
+                    <h3>Controle de Erros e Exceções</h3>
+                    <p>O controle de erros e exceções em Java permite lidar com situações inesperadas durante a execução de um programa. Utilizando blocos try, catch e finally, os desenvolvedores podem capturar e tratar erros, melhorando a robustez do código.</p>
+                </section>
+
+                <section id="poo">
+                    <h2>Programação Orientada a Objetos em Java</h2>
+                    <p>A Programação Orientada a Objetos (POO) utiliza "objetos" para representar dados e métodos. Os principais fundamentos incluem:</p>
+                    <ul>
+                        <li><strong>Encapsulamento:</strong> Protege os dados, permitindo acesso controlado.</li>
+                        <li><strong>Herança:</strong> Permite que uma classe herde características de outra.</li>
+                        <li><strong>Polimorfismo:</strong> Permite que métodos tenham diferentes comportamentos.</li>
+                        <li><strong>Abstração:</strong> Foca nos aspectos essenciais de um objeto.</li>
+                    </ul>
+                </section>
+
+                <section id="programacao-orientada-a-objetos">
+                    <h3>2. Programação Orientada a Objetos</h3>
+                    <p>A POO promove a criação de programas mais flexíveis e reutilizáveis. Através de classes e objetos, é possível modelar entidades do mundo real, facilitando a manutenção e a escalabilidade do software.</p>
+                </section>
+
+                <section id="tipos-literais-operadores-controle-fluxo">
+                    <h3>3. Tipos, Literais, Operadores e Controle de Fluxo</h3>
+                    <p>Java possui tipos primitivos como <code>int</code>, <code>double</code> e <code>char</code>, além de literais que representam valores. Os operadores aritméticos, lógicos e relacionais são usados para manipular dados. As estruturas de controle, como <code>if</code>, <code>switch</code>, <code>for</code> e <code>while</code>, permitem a execução condicional e repetitiva de código.</p>
+                </section>
+
+                <section id="como-criar-classes">
+                    <h3>4. Como Criar Classes, Objetos, Métodos, Variáveis</h3>
+                    <p>Classes são moldes para criar objetos, que são instâncias dessas classes. Métodos são funções definidas dentro de classes, e variáveis armazenam dados. A criação de classes e objetos é fundamental para a POO, permitindo a organização do código e a reutilização de funcionalidades.</p>
+                </section>
+
+                <section id="reutilizacao-heranca-composicao">
+                    <h3>5. Reutilização com Herança e Composição</h3>
+                    <p>A herança permite que uma classe herde características de outra, promovendo a reutilização de código. A composição envolve a criação de classes que contêm objetos de outras classes, permitindo uma estrutura mais flexível e modular.</p>
+                </section>
+
+                <section id="interfaces-polimorfismo">
+                    <h3>6. Interfaces e Polimorfismo</h3>
+                    <p>Interfaces definem contratos que as classes devem seguir, permitindo a implementação de métodos de forma consistente. O polimorfismo permite que métodos sejam utilizados de diferentes formas, seja através da sobrecarga ou sobrescrita.</p>
+                </section>
+
+                <section id="calculadora">
+                    <h3>Calculadora</h3>
+                    <form id="form-calculadora">
+                        <input type="number" id="numero1" placeholder="Número 1" required>
+                        <input type="number" id="numero2" placeholder="Número 2" required>
+                        <select id="operacao">
+                            <option value="adicionar">Adicionar</option>
+                            <option value="subtrair">Subtrair</option>
+                            <option value="multiplicar">Multiplicar</option>
+                            <option value="dividir">Dividir</option>
+                        </select>
+                        <button type="submit">Calcular</button>
+                    </form>
+                    <div id="resultado"></div>
+                </section>
+
+                <section id="poo-calculadora">
+                    <h3>Programação Orientada a Objetos na Calculadora</h3>
+                    <p>A classe <code>Calculadora</code> é um exemplo de como a Programação Orientada a Objetos pode ser utilizada em Java. Ela encapsula a lógica de operações matemáticas, permitindo que os métodos sejam chamados de forma organizada e reutilizável.</p>
+                    <p>Os métodos <code>adicionar</code>, <code>subtrair</code>, <code>multiplicar</code> e <code>dividir</code> são exemplos de como podemos definir comportamentos para a classe, seguindo os princípios de encapsulamento e abstração.</p>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Aprendendo Java. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        // Simulando a classe Calculadora no frontend
+        class Calculadora {
+            adicionar(a, b) {
+                return a + b;
+            }
+
+            subtrair(a, b) {
+                return a - b;
+            }
+
+            multiplicar(a, b) {
+                return a * b;
+            }
+
+            dividir(a, b) {
+                if (b === 0) {
+                    throw new Error("Divisão por zero não é permitida.");
+                }
+                return a / b;
+            }
+        }
+
+        document.getElementById('form-calculadora').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            const numero1 = parseFloat(document.getElementById('numero1').value);
+            const numero2 = parseFloat(document.getElementById('numero2').value);
+            const operacao = document.getElementById('operacao').value;
+            let resultado;
+
+            const calculadora = new Calculadora(); // Instanciando a classe Calculadora
+
+            // Executando a operação selecionada
+            switch (operacao) {
+                case 'adicionar':
+                    resultado = calculadora.adicionar(numero1, numero2);
+                    break;
+                case 'subtrair':
+                    resultado = calculadora.subtrair(numero1, numero2);
+                    break;
+                case 'multiplicar':
+                    resultado = calculadora.multiplicar(numero1, numero2);
+                    break;
+                case 'dividir':
+                    try {
+                        resultado = calculadora.dividir(numero1, numero2);
+                    } catch (error) {
+                        resultado = error.message; // Capturando erro de divisão por zero
+                    }
+                    break;
+            }
+
+            document.getElementById('resultado').innerText = 'Resultado: ' + resultado;
+        });
+    </script>
+</body>
+</html>
